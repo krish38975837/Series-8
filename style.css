@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html,body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+nav{
+    color: white;
+}
+nav ul{
+    padding: 46px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    margin-right: 100px;
+}
+nav ul li:hover{
+    color: gray;
+}
+.section1{
+    color: white;
+    height: 80vh;
+}
+.section1 img{
+
+    cursor: pointer;
+    height: 60%;
+    margin: 60px;
+    margin-left: 55%;
+    border: 2px solid white;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: 0.7s ease-in-out;
+}
+.section1 img:hover{
+    transform: scale(1.1);
+}
+.txt1{
+    margin-top: -306px;
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    
+}
+.txt1 a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 0, 43);
+}
+.section2{
+    color: white;
+    padding: 50px;
+    
+}
+.section2 h1{
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+
+}
+.section2 a{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 24px;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+}
+.section2 img{
+
+    cursor: pointer;
+    margin-left: 100px;
+    width: 80%;
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
+.section2 img:hover{
+    transform: scale(1.1);
+
+}
+
+.section3{
+    color: white;
+    display: flex;
+    padding: 60px;
+}
+.txt3{
+    text-align: center;
+    width: 50%;
+    margin-top: 218px;
+    margin-left: 147px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+.section3 img{
+    height: 700px;
+    border: 2px solid white;
+    border-radius: 500px;
+    padding: 24px;
+}
+.section3 img{
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+
+}
+.section3 img:hover{
+    transform: scale(1.1);
+} 
+.txt3 a{
+    color: yellow;
+    text-decoration: none;
+}
+footer{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+footer ul{
+    display: flex;
+    margin: 10px;
+}
+footer ul li{
+    padding: 10px;
+    list-style: none;
+}
+footer li:hover{
+    color: gray;
+}
